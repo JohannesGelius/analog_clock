@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Analog Clock - Johannes Gelius</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<div id="clock-main">
+		<img src="svg/bird.svg" width="226" height="133" id="bird">
+		<div class="house">
+			<object data="svg/house.svg" type="image/svg+xml" id="house"></object>
+		</div>
+		<div id="dial">
+			<div class="number" id="first">
+				<span>12</span>
+				<span>6</span>
+			</div>
+			<div class="number" id="second">
+				<span>3</span>
+				<span>9</span>
+			</div>
+			<span class="pendulum"><span class="pendelum-chain"></span><span class="pendulum-circle"></span></span>
+		</div>
+		<span id="seconds">
+            <span class="inner"></span>
+		</span>
+		<span id="minutes">
+            <span class="inner"></span>
+		</span>
+		<span id="hours">
+            <span class="inner"></span>
+		</span>
+		<div class="dot">
+		</div>
+	</div>
+	<script language="javascript" type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
